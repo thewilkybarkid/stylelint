@@ -7,6 +7,7 @@ import normalizeRuleSettings from '../lib/normalizeRuleSettings.js';
 import picocolors from 'picocolors';
 import postcss from 'postcss';
 import rules from '../lib/rules/index.js';
+
 const { bold, yellow } = picocolors;
 
 const ruleName = process.argv[2];
